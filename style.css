@@ -35,22 +35,16 @@ h5{
     align-items: center;
     padding: 2.2em 3.94em;
     justify-content: space-between;
-    
     background-color: white;
-   
  }
-
-
 .menu-list {
     font-size: 18px;
     display: flex;
     align-items: center;
 }
-
 .menu-item{
     margin-left: 3.1em;
 }
-
 .blue-button {
     text-transform: uppercase;
     background-color: #7AE5FD;
@@ -64,10 +58,9 @@ h5{
     border: 0;
     padding: 1.15em 1.94em;
     font-size: 18px;
-
 }
-/* First screen */
 
+/* First screen */
 .first-screen {
     background-image: url('./image/background.png');
     background-repeat: no-repeat;
@@ -79,14 +72,11 @@ h5{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
 }
 .first-screen-container {
     width: 50%;
     padding-left: 5em;
-    
 }
-
 .main-title {
     font-weight: 800;
     font-size: 4.06em;
@@ -95,20 +85,17 @@ h5{
     color: white;
     margin-bottom: 20px;
 }
-/* Description screen */
 
+/* Description screen */
 .description-screen{
     text-align: center;
     padding: 10em 13.6em;
-
 }
 
 /* Description block screen */
-
 .description {
     padding-bottom: 0;
 }
-
 .description-block {
     display: flex;
     align-items: center;
@@ -117,22 +104,17 @@ h5{
     border-radius: 10px;
     padding: 2.5em 3.875em;
     margin: 0 4.4em  3.125em;
-    
 }
 .description-text {
-    max-width: 46%;
-    
+    max-width: 46%;  
 }
-
 .description-text h5 {
     margin-bottom: 15px;
 }
-
 .description-text h6 {
     font-size: 1.25em;
     line-height: 1.3em;
 }
-
 .description-img{
     max-width: 100%;
     border-radius: 10px;
@@ -151,10 +133,9 @@ h5{
     display: flex;
     justify-content: center;
     margin-bottom: 10em;
-    
 }
-/* Mission block screen (2 children)*/
 
+/* Mission block screen (2 children)*/
 .mission {
     display: flex;
     align-items: center;
@@ -163,33 +144,27 @@ h5{
     border-radius: 10px;
     padding: 3em 38.4em 3em 3.8em;
     margin: 13.75em 5.3em;
-    max-width: 90%;}
-    
+    max-width: 90%;
+}
 .mission-content {
     padding: 3em 1em 3em 2em;
     max-width: 50%;
     line-height: 2em;
 }
-
 .image-vector {
     position: absolute;
     margin: 6.5em 2.6em 14.8em 42.6em;
     z-index: 1;
-    max-width: 45vw;
-    
+    max-width: 45vw; 
 }
-
 .image-2children {
     position: absolute;
     margin: -2em 11.31em 17.5em 48em;
     max-width: 50vw;
     z-index: 2;
-    
 }
 
-
 /*Support screen 10 000 000*/
-
 .support{
     text-align: center;
     line-height: 4.5em;
@@ -210,13 +185,11 @@ h5{
     display: flex;
     justify-content: space-between;
     margin-bottom: 3.1em;
-    
 }
 .contacts{
     text-align: center;
     width: 46%;
 }
-
 .second-part-contact{
     width: 46%;
 }
@@ -232,18 +205,15 @@ h5{
 .bold{
     font-weight: 700;
 }
-
 .post-info{
     display: flex;
     background-color: white;
     padding: 3.75rem;
 }
-
 .image-email{
     margin-top: 1.4em;
     margin-bottom: 1.4em;
 }
-
 .form-email{
     display: flex;
     flex-direction: column;
@@ -264,7 +234,9 @@ h5{
 .submit-form-button {
     margin: 0; 
 }
-@media screen and (max-width: 1440px){
+
+@media screen and (max-width: 1440px)
+{
     .mission-content{
     padding: 1em;
     max-width: 100%;
@@ -275,7 +247,6 @@ h5{
     .image-vector {
         margin: 6.5em 2.6em 10em 35em;
     }
-    
 }
 
 
