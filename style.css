@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+/* General styles */
+body {
+    font-family: "Montserrat";
+    font-weight: 400;
+    
+}
+h6 {
+    font-size: 20px;
+    margin-bottom: 1em;
+    line-height: 1.2em;
+}
+h2{
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-bottom: 0.3em;
+}
+h3{
+    font-size: 27px;
+    padding-bottom: 0.4em;
+}
+h4{
+    font-size: 20px;
+    color: #73A6B1;
+}
+h5{
+    font-size: 46px;
+    text-transform: uppercase;
+}
+
+/* Header styles */
+.header-container{
+    display: flex; 
+    align-items: center;
+    padding: 2.2em 3.94em;
+    justify-content: space-between;
+    
+    background-color: white;
+   
+ }
+
+
+.menu-list {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item{
+    margin-left: 3.1em;
+}
+
+.blue-button {
+    text-transform: uppercase;
+    background-color: #7AE5FD;
+    padding: 1.15em 1.94em;
+    border-radius: 4.8rem;
+    font-family: "Montserrat";
+    margin-left: 1.3em;
+}
+.white-button{
+    background-color: white;
+    border: 0;
+    padding: 1.15em 1.94em;
+    font-size: 18px;
+
+}
+/* First screen */
+
+.first-screen {
+    background-image: url('./image/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.first-screen-container {
+    width: 50%;
+    padding-left: 5em;
+    
+}
+
+.main-title {
+    font-weight: 800;
+    font-size: 4.06em;
+    line-height: 0.94;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px;
+}
+/* Description screen */
+
+.description-screen{
+    text-align: center;
+    padding: 10em 13.6em;
+
+}
+
+/* Description block screen */
+
+.description {
+    padding-bottom: 0;
+}
+
+.description-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#F1FDFF;
+    border-radius: 10px;
+    padding: 2.5em 3.875em;
+    margin: 0 4.4em  3.125em;
+    
+}
+.description-text {
+    max-width: 46%;
+    
+}
+
+.description-text h5 {
+    margin-bottom: 15px;
+}
+
+.description-text h6 {
+    font-size: 1.25em;
+    line-height: 1.3em;
+}
+
+.description-img{
+    max-width: 100%;
+    border-radius: 10px;
+    width: 36.5em;
+    height: 26.5em;
+}
+.button{
+    display: flex;
+    justify-content: center; 
+}
+.new-button{
+    background-color: #7AE5FD;
+    border: 0;
+    margin-top: 3.125em;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10em;
+    
+}
+/* Mission block screen (2 children)*/
+
+.mission {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F1FDFF;
+    border-radius: 10px;
+    padding: 3em 38.4em 3em 3.8em;
+    margin: 13.75em 5.3em;
+    max-width: 90%;}
+    
+.mission-content {
+    padding: 3em 1em 3em 2em;
+    max-width: 50%;
+    line-height: 2em;
+}
+
+.image-vector {
+    position: absolute;
+    margin: 6.5em 2.6em 14.8em 42.6em;
+    z-index: 1;
+    max-width: 45vw;
+    
+}
+
+.image-2children {
+    position: absolute;
+    margin: -2em 11.31em 17.5em 48em;
+    max-width: 50vw;
+    z-index: 2;
+    
+}
+
+
+/*Support screen 10 000 000*/
+
+.support{
+    text-align: center;
+    line-height: 4.5em;
+}
+.telefon{
+    text-transform: uppercase;
+    font-size: 4.5em;
+    line-height: 1.3;
+}
+
+/*Footer*/
+.footer{
+    background-color: #F9FADF;
+    padding: 3.125em 4.4em 10em;
+    
+    }
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.1em;
+    
+}
+.contacts{
+    text-align: center;
+    width: 46%;
+}
+
+.second-part-contact{
+    width: 46%;
+}
+.icon{
+    max-width: 2.5vw;
+}
+.contact-description{
+    font-size: 1.25em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 73.6%;
+}
+.bold{
+    font-weight: 700;
+}
+
+.post-info{
+    display: flex;
+    background-color: white;
+    padding: 3.75rem;
+}
+
+.image-email{
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
+}
+
+.form-email{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5.8em;
+}
+.form-email h3{
+    line-height: 1.1;
+    margin-bottom: 2.45rem;
+}
+.input{
+    background-color: #F9FADF;
+    border-width: 0;
+    font-size: 1.4rem;
+    margin-bottom: 1.94rem;
+    padding: 1.15em 1.94em;
+    border-radius: 4.8rem;
+}
+.submit-form-button {
+    margin: 0; 
+}
+@media screen and (max-width: 1440px){
+    .mission-content{
+    padding: 1em;
+    max-width: 100%;
+    }
+    .image-2children {
+        margin: -2em 11.31em 11em 35em;
+    }
+    .image-vector {
+        margin: 6.5em 2.6em 10em 35em;
+    }
+    
+}
+
+
+
