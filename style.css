@@ -7,25 +7,25 @@ body {
     
 }
 h6 {
-    font-size: 20px;
+    font-size: 1.25em;
     margin-bottom: 1em;
     line-height: 1.2em;
 }
 h2{
-    font-size: 60px;
+    font-size: 3.75em;
     text-transform: uppercase;
     padding-bottom: 0.3em;
 }
 h3{
-    font-size: 27px;
+    font-size: 1.68em;
     padding-bottom: 0.4em;
 }
 h4{
-    font-size: 20px;
+    font-size: 1.25em;
     color: #73A6B1;
 }
 h5{
-    font-size: 46px;
+    font-size: 2.87em;
     text-transform: uppercase;
 }
 
@@ -38,7 +38,7 @@ h5{
     background-color: white;
  }
 .menu-list {
-    font-size: 18px;
+    font-size: 1.125em;
     display: flex;
     align-items: center;
 }
@@ -57,7 +57,7 @@ h5{
     background-color: white;
     border: 0;
     padding: 1.15em 1.94em;
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 /* First screen */
@@ -129,7 +129,7 @@ h5{
     background-color: #7AE5FD;
     border: 0;
     margin-top: 3.125em;
-    font-size: 18px;
+    font-size: 1.125em;
     display: flex;
     justify-content: center;
     margin-bottom: 10em;
@@ -200,7 +200,7 @@ h5{
     font-size: 1.25em;
     margin-top: 1em;
     margin-bottom: 1em;
-    width: 73.6%;
+    width: 73%;
 }
 .bold{
     font-weight: 700;
@@ -208,7 +208,7 @@ h5{
 .post-info{
     display: flex;
     background-color: white;
-    padding: 3.75rem;
+    padding: 3.75em;
 }
 .image-email{
     margin-top: 1.4em;
@@ -221,33 +221,216 @@ h5{
 }
 .form-email h3{
     line-height: 1.1;
-    margin-bottom: 2.45rem;
+    margin-bottom: 2.45em;
 }
 .input{
     background-color: #F9FADF;
     border-width: 0;
-    font-size: 1.4rem;
-    margin-bottom: 1.94rem;
+    font-size: 1.4em;
+    margin-bottom: 1.94em;
     padding: 1.15em 1.94em;
-    border-radius: 4.8rem;
+    border-radius: 4.8em;
 }
 .submit-form-button {
     margin: 0; 
 }
 
-@media screen and (max-width: 1440px)
-{
+@media screen and (max-width: 1740px){
     .mission-content{
-    padding: 1em;
-    max-width: 100%;
-    }
+        padding: 1em;
+        max-width: 100%;
+        }
     .image-2children {
         margin: -2em 11.31em 11em 35em;
     }
     .image-vector {
         margin: 6.5em 2.6em 10em 35em;
+    } 
+}
+@media screen and (max-width: 1400px)
+{
+    .image-2children {
+        margin: -2em 11.31em 11em 30em;
+    }
+    .image-vector {
+        margin: 6.5em 2.6em 10em 30em;
     }
 }
+@media screen and (max-width: 1252px){
+    .image-2children {
+        margin: -2em 11.31em 6em 25em;
+    }
+    .image-vector {
+        margin: 6.5em 2.6em 10em 25em;
+    }
+    .description-img{
+        width: 30em;
+        height: 24em;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .description-block{
+        flex-direction: column;
+    }
+    .post-info{
+        flex-direction: column;
+    }
+    .image-email{
+        max-width: 90%;
+
+    }
+    
+}
+@media screen and (max-width: 1088px){
+    .mission{
+        padding: 3em 30.4em 3em 3.8em;
+    }
+    .image-2children {
+        margin: -2em 11.31em 1em 19em;
+    }
+    .image-vector {
+        margin: 6.5em 2.6em 5em 19em;
+    }
+    .description-text {
+        max-width: 150%;  
+    }
+}
+@media screen and (max-width: 964px){
+    .contact-info{
+        flex-direction: column;     
+    }
+    .image-2children {
+        display: none;
+    }
+    .image-vector {
+        display: none;
+    }
+    .mission{
+        margin: 3em 5.3em;
+        padding: 1em 3em;
+    }
+    .description {
+        margin-bottom: -10em;
+    }
+    .first-screen {
+        height: 50vh;
+
+    }
+}
+@media screen and (max-width: 932px){
+    h2{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 776px){
+    .telefon{
+        font-size: 3em;
+    }
+    .header-container{
+        flex-direction: column;
+        
+     }
+}
+@media screen and (max-width: 704px){
+    .main-title {
+        font-size: 3em;
+    }
+    h2{
+        font-size: 2.18em;
+    }
+    h5{
+        font-size: 2em;
+    }
+    .second-part-contact{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 648px){
+    .Logo{
+        margin-bottom: 2em;
+    }
+    li.menu-item.blue-button{
+        display: none;
+    }
+    .description-screen {
+        display: none;
+    }
+    .description{
+        padding-top: 5em;
+    }
+    .image-email{
+        display: none;
+    }
+    .form-email{
+        margin-left: 1em;
+    }
+    .post-info{
+        padding: 2em;
+    }
+    .description-img{
+        display: none;
+    }
+    h3{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 648px){
+    .main-title {
+        font-size: 2em;
+    }
+    .telefon{
+        font-size: 2.5em;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    h5{
+        font-size: 1.5em;
+    }
+    .mission {
+        max-width: 100%;
+    }
+
+}
+@media screen and (max-width: 460px){
+    .Logo{
+        margin-left: 19%;
+    }
+    .menu-list {
+       flex-direction: column;
+       line-height: 2em;
+    }
+}
+@media screen and (max-width: 420px){
+    h5{
+        font-size: 1em;
+    }
+    .description-text h6 {
+    font-size: 0.9em;
+    }
+    .telefon{
+        font-size: 1.7em;
+    }
+    .first-screen-container {
+        width: 50%;
+        padding-left: 1.5em;
+    }
+    .header-container{
+        display: flex; 
+        align-items: center;
+        padding: 2.2em 3.94em 2.2em  1.5em;
+        justify-content: space-between;
+        background-color: white;
+     }
+}
+
+
+
+
+
+
+
 
 
 
